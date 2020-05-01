@@ -8,3 +8,5 @@ var userDetails = {
         console.log(this.name)
     }
 }
+
+userDetails.salary

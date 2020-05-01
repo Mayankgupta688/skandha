@@ -1,0 +1,18 @@
+
+var keyObject = {
+    keyName: "salary",
+    otherKey: "bonus"
+}
+
+var userDetails = {
+    name: "Mayank",
+    userAge: 20,
+    userDesignation: "Trainer",
+    [getKey() + "Details"]: 30000
+}
+
+function getKey() {
+    return "salary"
+}
+
+debugger;
